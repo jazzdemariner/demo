@@ -20,3 +20,7 @@ const update =   function() {
  let arr = [1,2,3,4,6]
  arr.map( e => {e+2})
 }
+
+let arr2 = [1,4,5,7]
+arr2.map(e => e>2)
+console.log(arr2);
