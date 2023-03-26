@@ -13,3 +13,6 @@ function name(first ,last){
     console.log("first",first)
     console.log("last",last)
 }
+const function(firstname lasstNmae){
+  console.log(${firstname} + ${lasstNmae})
+}
