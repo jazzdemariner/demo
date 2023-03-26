@@ -9,3 +9,7 @@ let a = 18;
 let b = 14;
 let c = a+b;
 console.log("c",c)
+function name(first ,last){
+    console.log("first",first)
+    console.log("last",last)
+}
