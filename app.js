@@ -9,3 +9,7 @@ let a = 18;
 let b = 14;
 let c = a+b;
 console.log("c",c)
+
+const function(firstname lasstNmae){
+  console.log(${firstname} + ${lasstNmae})
+}
