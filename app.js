@@ -16,3 +16,7 @@ function name(first ,last){
 const function(firstname lasstNmae){
   console.log(${firstname} + ${lasstNmae})
 }
+
+let arr2 = [1,4,5,7]
+arr2.map(e => e>2)
+console.log(arr2);
