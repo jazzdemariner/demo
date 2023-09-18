@@ -43,3 +43,5 @@ console.log(pno.map(e =>{
 console.log(pno.filter(e =>{
     e.status
 }))
+
+console.log("hi da");
