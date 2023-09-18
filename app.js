@@ -24,3 +24,22 @@ const update =   function() {
 let arr2 = [1,4,5,7]
 arr2.map(e => e>2)
 console.log(arr2);
+
+let pno = [{
+    "poId":12345,
+    "status":'hot',
+    "sno":123456
+},
+{
+    "poId":56784,
+    "status":'hot',
+    "sno":95656
+}]
+
+console.log(pno.map(e =>{
+    return e.status
+}))
+
+console.log(pno.filter(e =>{
+    e.status
+}))
